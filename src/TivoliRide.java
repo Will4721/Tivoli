@@ -8,7 +8,7 @@ public class TivoliRide {
         Scanner myObj = new Scanner(System.in);
         System.out.println("Please enter height");
         int resu = myObj.nextInt();
-        if (resu > 170){
+        if (resu >= 170){
             System.out.println("Your tall enough too try all the rides. You can choose between\nA: carousel\nB: bumber carts\nC: The rollercoaster\nType 'A' or 'B' or 'C'");
             String resu4 = newObj.nextLine();
             if (resu4.equals("A")||resu4.equals("a")){
@@ -21,7 +21,7 @@ public class TivoliRide {
                 System.out.println("Your now on the rollercoaster have fun :)");
             }
         }
-        if (resu < 170){
+        if (resu <= 169){
             System.out.println("sorry " + resuname + " your not allowed to try the ultimate rollercoaster that is super fun and everybody loves, too bad");
             System.out.println("May i suggest the carousel or perhaps the bumber carts instead\nA: carousel\nB: bumber carts\nType 'A' or 'B'");
             String resu4 = newObj.nextLine();
