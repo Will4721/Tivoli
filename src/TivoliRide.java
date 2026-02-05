@@ -13,6 +13,7 @@ public class TivoliRide {
             String resu4 = newObj.nextLine();
             if (resu4.equals("A")||resu4.equals("a")){
                 System.out.println("Your now on the carousel have fun :)");
+
             }
             if (resu4.equals("B")||resu4.equals("b")){
                 System.out.println("Your now on the bumber carts have fun :)");
