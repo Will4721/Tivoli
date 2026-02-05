@@ -1,5 +1,7 @@
+import java.util.Scanner;
+
 public class TivoliRide {
-    public static void main(String[] args) {
+    int height;
 
 
     }
