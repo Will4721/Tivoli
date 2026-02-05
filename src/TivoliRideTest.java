@@ -4,10 +4,12 @@ public class TivoliRideTest {
     public static void main(String[] args) {
         System.out.println("How tall are you?");
         Scanner newObj = new Scanner(System.in);
-        height = newObj.nextLine();
-    }
+        TivoliRide s1 = new TivoliRide();
+        s1.height = Integer.parseInt(newObj.nextLine());
+        s1.work();
 
-    s1.height = 180
+
+    }
 
     }
 
